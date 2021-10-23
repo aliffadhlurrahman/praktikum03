@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="icon" href="img/icons8-pizza-24.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <main style="width: 40% ; margin: 40px auto; border: 1px solid #000; padding: 25px;">
+        <form action="http://blackgoosebistro.com/pizza.php" method="post">
+            <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+            <p style="margin: 20px 0;">Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and
+                we'll deliver it within an hour.
+            </p>
+            <form action="manual_thank_you_0110121172_aliffadhlurrahman.html" method="get">
+                <div style="margin: 20px 0;">
+                    <p>Your Information</p>
+                    <ul style="list-style: none;">
+                        <li style="margin: 5px 0;">
+                            <label for="input-nama">Name :</label>
+                            <input id="input-nama" type="text" name="customername">
+                        </li>
+                        <li style="margin: 5px 0;">
+                            <label for="input-address">Address :</label>
+                            <input id="input-address" type="text" name="address">
+                        </li>
+                        <li style="margin: 5px 0;">
+                            <label for="input-telephone-number">Telephone Number :</label>
+                            <input id="input-telephone-number" type="text" name="telephone">
+                        </li>
+                        <li style="margin: 5px 0;">
+                            <label for="input-email">Email :</label>
+                            <input id="input-email" type="email" name="email">
+                        </li>
+                        <li>
+                            <label for="input-delivery-instructions">Delivery Instructions :</label>
+                        </li>
+                        <li>
+                            <textarea id="input-delivery-instructions" name="instructions" cols="50" rows="5"
+                                maxlength="400" placeholder="No more than 400 characters long"></textarea>
+                        </li>
+                    </ul>
+                </div>
+                <div style="margin: 20px 0;">
+                    <h3>Design Your Dream Pizza</h3>
+                    <p>Pizza specs</p>
+                    <div style="margin: 20px 0;">
+                        <p>Crust (Choose one)</p>
+                        <ul style="list-style: none;">
+                            <li style="margin-left: 20px;">(<input type="radio" name="crust" id="Classic-white"
+                                    value="Classic white">) Classic white <label for="Classic-white"></label></li>
+                            <li style="margin-left: 20px;">(<input type="radio" name="crust" id="Multigranic"
+                                    value="Multigranic">) Multigranic <label for="Multigranic"></label></li>
+                            <li style="margin-left: 20px;">(<input type="radio" name="curst" id="Cheese-stuffed-crust"
+                                    value="Cheese-stuffed crust">) Cheese-stuffed crust <label
+                                    for="Cheese-stuffed-crust"></label></li>
+                            <li style="margin-left: 20px;">(<input type="radio" name="curst" id="Gulten-free"
+                                    value="Gulten-free">) Gulten-free <label for="Gulten-free"></label></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <legend>Toppings (Choose as many as you want) :</legend>
+                        <ul style="list-style: none;">
+                            <li style="margin-left: 20px;"> [<input id="Red-Sauce" type="checkbox" name="toppings[]"
+                                    value="Red Sauce" checked>] <label for="Red-Sauce">Red Sauce</label></li>
+                            <li style="margin-left: 20px;"> [<input id="White-Sauce" type="checkbox" name="toppings[]"
+                                    value="White Sauce">] <label for="White-Sauce">White Sauce</label></li>
+                            <li style="margin-left: 20px;"> [<input id="Mozzarela-Cheese" type="checkbox"
+                                    name="toppings[]" value="Mozzarela Cheese">] <label for="Mozzarela-Cheese">Mozzarela
+                                    Cheese</label></li>
+                            <li style="margin-left: 20px;"> [<input id="Pepperoni" type="checkbox" name="toppings[]"
+                                    value="Pepperoni">] <label for="Pepperoni">Pepperoni</label></li>
+                            <li style="margin-left: 20px;">[<input id="Mushrom" type="checkbox" name="toppings[]"
+                                    value="Mushrom">] <label for="Mushrom">Mushrom</label></li>
+                            <li style="margin-left: 20px;">[<input id="Peppers" type="checkbox" name="toppings[]"
+                                    value="Peppers">] <label for="Peppers">Peppers</label></li>
+                            <li style="margin-left: 20px;">[<input id="Anchovies" type="checkbox" name="toppings[]"
+                                    value="Anchovies">] <label for="Anchovies">Anchovies</label></li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="margin: 20px 0;">
+                    <p>Number</p>
+                    <label for="How-many-pizzas">How many pizzas</label>
+                    <select name="pizzas" id="How-many-pizzas">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <input type="submit" value="Bring me a pizza!" style="padding: 3px 5px;">
+                <input type="reset" value="Reset" style="padding: 3px 5px;">
+            </form>
+    </main>
+</body>
+
+</html>
